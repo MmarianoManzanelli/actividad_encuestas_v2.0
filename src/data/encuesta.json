@@ -1,0 +1,60 @@
+[
+    {
+        "id" : 1,
+        "titulo": "Encuesta de satisfaccíon",
+        "descripcion": "Por favor, tomese un momento para responder a nuestras preguntas de satisfaccíon.",
+        "preguntas": [
+            {
+                "id": 1,
+                "pregunta": "Como calificaría nuestra servicio?",
+                "opciones": [
+                    {"id" : 1, "texto": "Exelente"},
+                    {"id":2, "texto": "Bueno"},
+                    {"id": 3, "texto": "Regular"},
+                    {"id": 4, "texto": "Malo"}
+                ]
+            },
+        
+
+        {
+            "id" : 2,
+            "pregunta" : "¿Que podemos mejorar?",
+            "opciones" : [
+                {"id": 5, "texto": "Atencíon al cliente"},
+                {"id": 6, "texto": "Tiempo de entrega"},
+                {"id": 7, "texto": "Variedad de productos"},
+                {"id": 8, "texto": "Calidad de productos"}
+            ]
+        }
+    ]
+},
+
+{
+    "id":2,
+    "titulo": "Encuesta de productos",
+    "descripcion": "Ayudenos a mejorar nuestros productos completando ésta encuesta.",
+
+    "preguntas": [
+        {
+            "id":3,
+            "pregunta": "¿Cual es su producto favorito?",
+            "opciones": [
+                {"id":9, "texto": "Producto A"},
+                {"id":10, "texto": "Producto B"},
+                {"id":11, "texto": "Producto C"},
+                {"id":12, "texto": "Producto D"}
+            ]
+        },
+
+        {
+            "id": 4,
+            "pregunta": "¿Como podemos mejorar nuestro servicio al cliente?",
+            "opciones": [
+                {"id":13, "texto": "Mayor disponibilidad de atencíon"},
+                {"id":14, "texto": "Respuestas más rápidas"},
+                {"id":15, "texto": "Entrenamiento al personal"}
+            ]
+        }
+    ]
+}
+]
